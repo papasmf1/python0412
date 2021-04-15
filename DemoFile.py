@@ -5,7 +5,7 @@ f.write("첫번째\n")
 f.write("두번째 라인\nabcd\n")
 f.close()
 
-#다시 파일을 열어서 읽기 
+#다시 파일을 열어서 읽기(기본값이 rt) 
 f = open("c:\\work\\demo.txt")
 print( f.read() )
 print( f.tell() )
